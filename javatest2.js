@@ -25,6 +25,7 @@ const strArr = ["01111", "01101", "00011", "11110"];
                 if(mat[i+1]) {
                     if(mat[i+1].includes(mat[i][j])) {
                         total++;
+                    }
                 }
             }
         }   
