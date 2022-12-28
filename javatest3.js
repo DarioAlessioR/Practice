@@ -1,3 +1,4 @@
+// This is a challenge that was presented to Nimrod
 // Challenge to match the number of characters in the first string to the second string
 // The first string can contain +, *, and {N} where N is a number
 // The + means add 1 to the count
