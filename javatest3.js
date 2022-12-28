@@ -9,6 +9,7 @@
 // The function returns true if the number of characters in the second string matches the count
 // The function returns false if the number of characters in the second string does not match the count
 
+
 function StringChallenge(str) { 
     let arr = str.split(' ');
     let arr1 = arr[0].split('');
