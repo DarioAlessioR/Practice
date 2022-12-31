@@ -1,3 +1,6 @@
+# Description: 1. Write a method that takes a hash as an argument and returns a hash with the same keys and values but with the following changes:
+
+
 def letter_avatar(user_hash)
     colors = ['red','blue','yellow','green','pink','ambar','black']
     color = colors.sample
