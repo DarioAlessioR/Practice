@@ -19,6 +19,10 @@
 // Input:"1011", "0010"
 // Output:2
 
+// Challenge: Try to solve this challenge
+
+
+
 
 function BitmapHoles(strArr) { 
   let bitmap = strArr.map(a => a.split(''));
