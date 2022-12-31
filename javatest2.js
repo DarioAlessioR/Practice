@@ -1,3 +1,7 @@
+// Type: JavaScript
+// Challenge: BitmapHoles
+// Platform: Coderbyte
+
 const strArr = ["01111", "01101", "00011", "11110"];
     let total = 0;
     let matrix = [];
