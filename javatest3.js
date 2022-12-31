@@ -4,11 +4,12 @@
 // The first string can contain +, *, and {N} where N is a number
 // The + means add 1 to the count
 // The * means add 3 to the count
+// The * means add 3 to the count
 // The *{N} means add N to the count
 // The second string is the string to be matched
 // The function returns true if the number of characters in the second string matches the count
 // The function returns false if the number of characters in the second string does not match the count
-
+// The function returns the count
 
 function StringChallenge(str) { 
     let arr = str.split(' ');
