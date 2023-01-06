@@ -2,4 +2,15 @@
 
 Class Fetch
 
-def 
+def fetch
+    uri = URI('https://api.github.com/users/defunkt')
+    response = Net::HTTP.get(uri)
+    puts response
+end
+
+end
+
+# Code of an Ruby on Rails app that fetches an api
+
+Class Fetch
+
