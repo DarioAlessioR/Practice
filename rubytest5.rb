@@ -15,6 +15,9 @@ end
 Class response
   if response.code == "200"
     puts "Success"
+
+    @response = JSON.parse(response.body)
+    puts @response
   else
     puts "Error"
   end
