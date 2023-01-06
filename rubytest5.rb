@@ -21,6 +21,23 @@ Class response
   else
     puts "Error"
   end
+
+  def fetch
+    uri = URI('https://api.github.com/users/defunkt')
+    response = Net::HTTP.get(uri)
+    puts response
+    @response = JSON.parse(response.body)
+    puts @response
+    end
+
+  def fetch
+    uri = URI('https://api.github.com/users/defunkt')
+    response = Net::HTTP.get(uri)
+    puts response
+    @response = JSON.parse(response.body)
+    puts @response
+    end
+
 end
 
 # Code of an Ruby on Rails app that fetches an api
