@@ -12,5 +12,18 @@ end
 
 # Code of an Ruby on Rails app that fetches an api
 
-Class Fetch
+Class response
+  if response.code == "200"
+    puts "Success"
+  else
+    puts "Error"
+  end
+end
+
+# Code of an Ruby on Rails app that fetches an api
+
+Class response
+
+
+
 
