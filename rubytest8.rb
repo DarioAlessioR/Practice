@@ -17,3 +17,6 @@ end
  end
  
  has_s?(stimpy)
+
+
+ # no way
