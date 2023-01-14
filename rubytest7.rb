@@ -22,4 +22,4 @@ tools.all? do |tool|
   tool[0] == "r"
 end
 
-# Solution 3: it does not print in the console
+# Solution 3: it does not print in the consolennnnn
