@@ -19,4 +19,4 @@ end
  has_s?(stimpy)
 
 
- # no way
+ # no way nnnn
