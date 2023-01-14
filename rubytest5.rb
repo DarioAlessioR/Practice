@@ -55,7 +55,7 @@ def fetch
 end
 
 
-# Code of an Ruby on Rails app that fetches an api
+# Code of an Ruby on Rails app that fetches an apinnnnn
 
 
 
